@@ -731,6 +731,7 @@ img {
   /* overflow: visible; */
 }
 
+
 .projects_content{
   border-radius: 0.5rem;
   margin: 0 40px;
@@ -738,6 +739,7 @@ img {
   /* background-color: rgb(85, 235, 85); */
   /* overflow: hidden; */
 }
+
 
 .project_title{
   font-size: var(--h3-font-size);
@@ -749,6 +751,9 @@ img {
   display: flex;
   flex-direction: column;
   width: 320px;
+}
+.project_card:hover{
+  transform: scale(1.1);
 }
 
 .project_data{
